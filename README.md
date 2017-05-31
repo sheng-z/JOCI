@@ -10,8 +10,8 @@ inference, which is an extension of recognizing textual entailment:
 predicting ordinal human responses on the subjective likelihood of an
 inference holding in a given context.
 
-See the following paper for full details. If you use JOCI,
-please cite:
+See the JOCI [paper](http://www.cs.jhu.edu/~s.zhang/assets/pdf/joci.pdf)
+for full details. If you use JOCI, please cite:
 >@article{zhang-EtAl:2017:TACL,  
 	author = {Zhang, Sheng and Rudinger, Rachel and Duh, Kevin and Van Durme, Ben },  
 	title = {Ordinal Common-sense Inference},  
