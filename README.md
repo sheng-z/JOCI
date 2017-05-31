@@ -12,7 +12,7 @@ inference holding in a given context.
 
 See the following paper for full details. If you use JOCI,
 please cite:
->@article{TACL879,  
+>@article{zhang-EtAl:2017:TACL,  
 	author = {Zhang, Sheng and Rudinger, Rachel and Duh, Kevin and Van Durme, Ben },  
 	title = {Ordinal Common-sense Inference},  
 	journal = {Transactions of the Association for Computational Linguistics},  
