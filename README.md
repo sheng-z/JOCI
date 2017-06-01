@@ -2,7 +2,7 @@
 the JHU Ordinal Common-sense Inference (JOCI) corpus
 
 ## Summary
-The JOCI corpus is a collection of 39k automactially generated common-sense
+The JOCI corpus is a collection of 39k automatically generated common-sense
 inference pairs manually labelled for ordinal inference with the labels
 *very likely (5)*, *likely (4)*, *plausible (3)*, *technically possible (2)*,
 and *impossible (1)*. JOCI is created to support ordinal common-sense
