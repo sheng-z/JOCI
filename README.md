@@ -10,13 +10,23 @@ inference, which is an extension of recognizing textual entailment:
 predicting ordinal human responses on the subjective likelihood of an
 inference holding in a given context.
 
-See the JOCI [paper](http://www.cs.jhu.edu/~s.zhang/assets/pdf/joci.pdf)
+See the JOCI [paper](http://www.aclweb.org/anthology/Q17-1027)
 for full details. If you use JOCI, please cite:
->@article{zhang-EtAl:2017:TACL,  
-	author = {Zhang, Sheng and Rudinger, Rachel and Duh, Kevin and Van Durme, Ben },  
-	title = {Ordinal Common-sense Inference},  
-	journal = {Transactions of the Association for Computational Linguistics},  
-	year = {2017}  }
+
+	@article{ordinal-common-sense-inference,   
+		author = {Zhang, Sheng  and Rudinger, Rachel  and Duh, Kevin  and {Van Durme}, Benjamin },  
+		title = {Ordinal Common-sense Inference},  
+		journal = {Transactions of the Association for Computational Linguistics},  
+		volume = {5},  
+		year = {2017},  
+		keywords = {inference,select},  
+		abstract = {Humans have the capacity to draw common-sense inferences from natural language: various things that are likely but not certain to hold based on established discourse, and are rarely stated explicitly. We propose an evaluation of automated common-sense inference based on an extension of recognizing textual entailment: predicting ordinal human responses on the subjective likelihood of an inference holding in a given context. We describe a framework for extracting common-sense knowledge from corpora, which is then used to construct a dataset for this ordinal entailment task. We train a neural sequence-to-sequence model on this dataset, which we use to score and generate possible inferences. Further, we annotate subsets of previously established datasets via our ordinal annotation protocol in order to then analyze the distinctions between these and what we have constructed.},  
+		issn = {2307-387X},  
+		url = {https://transacl.org/ojs/index.php/tacl/article/view/1082},  
+		pages = {379--395},  
+	}
+
+
 
 ## Statistics of JOCI
 | Subset Name |  #pair | Context Source |  Hypothesis Source |
