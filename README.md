@@ -31,18 +31,18 @@ for full details. If you use JOCI, please cite:
 ## Statistics of JOCI
 | Subset Name |  #pair | Context Source |  Hypothesis Source |
 |:-----------:|:------:|:--------------:|:------------------:|
-|     AGCI    | 22,086 |   SNLI-train   |       AGCI-WK      |
+|     AGCI    | 22,085 |   SNLI-train   |       AGCI-WK      |
 |     AGCI    |  2,456 |    SNLI-dev    |       AGCI-WK      |
 |     AGCI    |  2,362 |    SNLI-test   |       AGCI-WK      |
 |     AGCI    |  5,002 |   ROCStories   |       AGCI-WK      |
 |     AGCI    |  1,211 |   SNLI-train   |       AGCI-NN      |
 |     SNLI    |    993 |   SNLI-train   |   SNLI-ENTAILMENT  |
-|     SNLI    |    998 |   SNLI-train   |    SNLI-NEUTRAL    |
+|     SNLI    |    988 |   SNLI-train   |    SNLI-NEUTRAL    |
 |     SNLI    |    995 |   SNLI-train   | SNLI-contradiction |
 |  ROCStories |  1,000 | ROCStories-1st |   ROCStories-2nd   |
 |  ROCStories |  1,000 | ROCStories-1st |   ROCStories-3rd   |
 |     COPA    |  1,000 |  COPA-premise  |     COPA-effect    |
-|    Total    | 39,093 |        -       |          -         |
+|    Total    | 39,092 |        -       |          -         |
 
 ## Data Format
 We provide the JOCI corpus in the CSV format which has 6 fields:
